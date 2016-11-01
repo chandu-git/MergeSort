@@ -2,6 +2,11 @@ package mergeSort;
 
 public class MergeSort {
 
+	/**
+	 * Divide an unsorted list into sublists that all contain 1 element, 
+	 * and then by repeatedly merging these sublists until there is only 1 
+	 * sorted list remaining
+	 */
 	public static int[] mergeSort(int[] A, int p, int r){
 		if(p<r){
 			int q=(p+r)/2;
